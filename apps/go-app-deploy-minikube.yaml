@@ -5,7 +5,7 @@ metadata:
 spec:
   destination:
     name: 'in-cluster'
-    namespace: 'default'
+    namespace: 'argocd'
   source:
     path: 'chart'
     repoURL: 'https://github.com/devopshint/gitops-workflow-deploy-goapp-minikube-using-argocd'
